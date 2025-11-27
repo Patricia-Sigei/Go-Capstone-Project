@@ -1,4 +1,4 @@
-# Getting Started with Go - A Beginner's Guide
+# Moringa AI Capstone Project: Beginner’s Toolkit with GenAI
 
 ## Why Go?
 I chose Go because it's designed for simplicity, has built-in concurrency, and is used by companies like Google, Uber, and Dropbox for backend services. I wanted to learn a compiled language that's fast and has a clean syntax.
