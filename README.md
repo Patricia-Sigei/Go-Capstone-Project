@@ -360,42 +360,6 @@ Go compiles directly to machine code, creating single binary executables that ru
 ### 6. Powerful Standard Library
 Go's standard library includes HTTP servers, JSON handling, file I/O, cryptography, and much more - no external frameworks needed for basic tasks.
 
----
-
-## Helpful AI Prompts for Learning Go
-
-As you continue learning, here are some useful prompts to deepen your understanding:
-
-### Installation & Setup
-- "Give me step-by-step installation instructions for Go on Linux Ubuntu"
-- "Why is go command not found after installation in zsh?"
-- "How do I set up VS Code for Go development?"
-
-### Basic Concepts
-- "Write a complete Hello World program in Go with detailed comments explaining each part"
-- "Explain Go's basic data types and how variable declaration works"
-- "What's the difference between var declaration and short declaration (:=) in Go?"
-- "Explain what go mod init does and why I need it for Go projects"
-
-### Building Programs
-- "How do I extend my Hello World program to also run an HTTP server with multiple routes?"
-- "Show me how to read JSON from an HTTP request body in Go"
-- "How do I add query parameters to my HTTP endpoints?"
-- "What's the best way to organize a Go web server project with multiple files?"
-
-### Error Handling
-- "How does error handling work in Go? Why doesn't it have try-catch?"
-- "Show me examples of proper error handling in Go HTTP handlers"
-- "When should I return errors in Go?"
-
-### Debugging & Troubleshooting
-- "My Go server returns 404 for all routes, what could be wrong?"
-- "How do I debug Go programs? What tools are available?"
-- "Why is my goroutine not executing?"
-
-### Best Practices
-- "What are Go naming conventions for variables and functions?"
-- "How should I structure error messages in Go?"
 
 ---
 
@@ -470,7 +434,7 @@ go mod init myproject
 
 **Result:** Successfully installed Go 1.21.5 on my Linux system.
 
-**Evaluation:** ⭐⭐⭐⭐⭐ Extremely helpful. The step-by-step approach made installation straightforward even for a complete beginner.
+**Evaluation:** Extremely helpful. The step-by-step approach made installation straightforward even for a complete beginner.
 
 ---
 
@@ -481,7 +445,7 @@ go mod init myproject
 
 **Result:** Fixed the command not found: go error by adding the PATH to ~/.zshrc instead of ~/.bashrc.
 
-**Evaluation:** ⭐⭐⭐⭐⭐ Critical help! Without this, I would have been stuck. The AI quickly identified the shell mismatch issue and provided the exact solution.
+**Evaluation:** Critical help! Without this, I would have been stuck. The AI quickly identified the shell mismatch issue and provided the exact solution.
 
 ---
 
@@ -492,7 +456,7 @@ go mod init myproject
 
 **Result:** Created my first runnable Go program and understood the basic structure of Go programs.
 
-**Evaluation:** ⭐⭐⭐⭐ Very helpful. The comments made it easy to understand what each line does, though I needed follow-up prompts for deeper understanding.
+**Evaluation:** Very helpful. The comments made it easy to understand what each line does, though I needed follow-up prompts for deeper understanding.
 
 ---
 
@@ -503,7 +467,7 @@ go mod init myproject
 
 **Result:** Learned about type safety and how Go handles variables differently from dynamically typed languages.
 
-**Evaluation:** ⭐⭐⭐⭐ Good foundational knowledge. Would have been better with more practical examples.
+**Evaluation:**  Good foundational knowledge. Would have been better with more practical examples.
 
 ---
 
@@ -514,7 +478,7 @@ go mod init myproject
 
 **Result:** Successfully extended my Hello World program to include a working REST API with three endpoints, all in one file showing clear progression.
 
-**Evaluation:** ⭐⭐⭐⭐⭐ Excellent! This approach shows how Go programs can evolve and grow. The single-file approach made it easy to see the progression from basic to advanced.
+**Evaluation:**  Excellent! This approach shows how Go programs can evolve and grow. The single-file approach made it easy to see the progression from basic to advanced.
 
 ---
 
@@ -525,7 +489,7 @@ go mod init myproject
 
 **Result:** Understood Go's explicit error handling approach and why it's considered more predictable than exceptions.
 
-**Evaluation:** ⭐⭐⭐⭐ Good conceptual explanation. I'll need more practice to see the benefits in real projects.
+**Evaluation:**  Good conceptual explanation. I'll need more practice to see the benefits in real projects.
 
 ---
 
